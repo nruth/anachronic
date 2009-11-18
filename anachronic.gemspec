@@ -23,6 +23,9 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "anachronic.gemspec",
+     "lib/anachronic/directory.rb",
+     "spec/anachronic/directory_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
   ]
