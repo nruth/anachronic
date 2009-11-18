@@ -2,6 +2,25 @@
 
 Directory content snapshots w/ comparison functionality to track filename & existence changes in testing. Developed for cucumber & rspec.
 
+Enables easy implementation of this kind of cucumber scenario:
+
+Scenario: completely delete an image
+  Given I record the state of "public/system"
+  And a site image exists
+  Then the file contents of "public/system" should have changed
+  When I go to the site_image's page
+  And I press "Delete Image"
+  Then the site image should be deleted
+  When I go to the site_images page
+  Then I should not see "Metal Box"
+  Then the file contents of "public/system" should be as they were
+  
+Where the steps of interest are 
+  Given I record the state of "public/system"
+  Then the file contents of "public/system" should have changed
+  Then the file contents of "public/system" should be as they were
+
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
