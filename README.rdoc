@@ -1,6 +1,6 @@
 = anachronic
 
-Description goes here.
+Directory content snapshots w/ comparison functionality to track filename & existence changes in testing. Developed for cucumber & rspec.
 
 == Note on Patches/Pull Requests
  
