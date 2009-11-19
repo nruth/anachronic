@@ -41,6 +41,12 @@ Where this code sits in vendor/plugins/anachronism.
 
 Gem to follow, when I get it to work.
 
+Missing Functionality / Planned Features
+------------------------------------------------------------
+  
+* Does not detect file size, timestamp, or content changes
+* Does not show whether files were +'d or -'d (think diff)
+
 Note on Patches/Pull Requests
 -----------------------------
  
